@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+</head>
+<body>
+    <a name="home"></a>
+    <nav>
+        <div class="logo"><h1>Portfolio</h1></div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            <span class="icons">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"> <i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                 <a href="https://github.com/"><i class="fab fa-github"></i></a>
+            </span>
+        </ul>
+    </nav><br><br>
+    <section class="a">
+        <div class="left">
+            <img src="What-is-Full-Stack-Developer.png" style="border-radius: 60%;" >
+        </div>
+        <div class="right">
+            <p>Hello, I am <span style="color: darkcyan;">Shreyansh Mishra</span>.
+            <br>I am a <span id="element" style="color: darkcyan;"></span>.</p>
+        </div>
+    </section><br><br><br>
+    <a name="about"></a>
+    <section class="b">
+        <h2 style="text-align: center;"><span style="color:rgb(84, 79, 79);font-size: 40px;">About Me</span></h2><br><br>
+        <div class="box">
+            <div class="education">
+                <h3 style="color: rgb(84, 79, 79);text-align: center;font-size: 30px;">Education</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, voluptates excepturi, aliquam consequuntur repellendus error tempora quam ratione molestiae accusamus suscipit, quaerat debitis nesciunt? Unde tempora facilis cum in quam!
+            </div>
+            <div class="workexperience">
+                <h3 style="color: rgb(84,79,79);text-align: center;font-size: 30px;">Work Experience</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab eligendi delectus dolorum quibusdam, asperiores mollitia, fugit consequatur deleniti excepturi nulla, rerum ratione? Inventore nam, obcaecati praesentium fuga eaque harum voluptates.
+            </div>
+        </div>
+    </section><br><br><br>
+    <section class="c">
+        <h2 style="text-align: center;"><span style="color:rgb(84, 79, 79);font-size: 40px;">Projects</span></h2><br><br>
+        <div class="box1">
+            <div class="X"><img class="a"src="photo-1503696967350-ad1874122058.jpeg">
+            </div>
+           < <div class="X"><img class="a" src="photo-1530878955558-a6c31b9c97db.jpeg" >
+            </div>
+            <div class="X"><img class="a" src="526285.webp">>
+        </div>
+    </section>
+    <br><br><br>
+    <a name="contact"></a>
+    <section class="contact-form">
+        <h2 id="a">Contact Me</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+    
+          <button type="submit">Send Message</button>
+        </form>
+      </section><br>
+      <footer>
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+        <div class="icon">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"> <i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+             <a href="https://github.com/"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#element', {
+    strings: ['Web Developer', 'Competitive Coder','Graphic Designer','Video-Editor','Machine Learning Enthusiast'],
+    typeSpeed: 100,
+    loop: true
+  });
+    </script>
+</body>
+</html>
